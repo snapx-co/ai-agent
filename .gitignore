@@ -1,0 +1,4 @@
+.venv
+agents/**/chrome_user_data
+agents/**/.agent_prompt
+.env
