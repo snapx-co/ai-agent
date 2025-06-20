@@ -22,6 +22,19 @@ uv pip install browser-use
 python agents/twitter-ai/agent.py
 ```
 
+## set .env
+
+```
+TWITTER_USER_NAME="user@email.com"
+TWITTER_PASSWORD="user_password"
+```
+
+## set .agent_prompt in agents/twitter-ai
+
+```
+Define ai role
+```
+
 ## prompt exmaple
 
 ```
