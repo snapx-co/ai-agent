@@ -3,6 +3,10 @@ AI Agent
 ## instruction
 
 ```
+# download uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# set python venv
 uv python install 3.11
 uv venv --python 3.11
 
@@ -11,7 +15,10 @@ source .venv/bin/activate
 # for fish
 source .venv/bin/activate.fish
 
+# install package
 uv pip install browser-use
+
+# run ai agent
 python agents/twitter-ai/agent.py
 ```
 
